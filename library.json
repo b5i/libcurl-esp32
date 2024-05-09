@@ -1,6 +1,6 @@
 {
   "name": "libcurl-esp32",
-  "version": "8.8.0-DEV",
+  "version": "8.8.0-DEV-2",
   "description": "A library to get access to \"curl/curl.h\" with PlatformIO on ESP32.",
   "keywords": "curl, libcurl",
   "repository":
