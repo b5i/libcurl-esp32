@@ -1,0 +1,45 @@
+{
+  "name": "libcurl-esp32",
+  "version": "8.8.0-DEV",
+  "description": "A library to get access to \"curl/curl.h\" with PlatformIO on ESP32.",
+  "keywords": "curl, libcurl",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/b5i/libcurl-esp32.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Antoine Bollengier",
+      "url": "https://github.com/b5i/libcurl-esp32",
+      "maintainer": true
+    },
+    {
+      "name": "Daniel Stenberg and the CURL contributors.",
+      "email": "daniel@haxx.se",
+      "url": "https://github.com/curl/curl",
+      "maintainer": false
+    },
+    {
+      "name": "Neil Kolban",
+      "email": "kolban1@kolban.com",
+      "url": "https://github.com/nkolban/esp32-snippets",
+      "maintainer": false
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "curl/curl.h",
+  "scripts": {
+    "postinstall": ["./updateProject.sh"]
+  },
+  "examples": [
+    {
+        "name": "HelloWorld",
+        "base": "examples",
+        "files": ["curlHelloWorld.cpp"]
+    }
+  ]
+}
