@@ -503,7 +503,7 @@
 #define HAVE_PERROR 1
 
 /* Define to 1 if you have the `pipe' function. */
-#define HAVE_PIPE 1
+//#define HAVE_PIPE 1
 
 /* Define to 1 if you have a working poll function. */
 //#define HAVE_POLL 1
@@ -587,7 +587,7 @@
 #define HAVE_SOCKET 1
 
 /* Define to 1 if you have the socketpair function. */
-#define HAVE_SOCKETPAIR 1
+//#define HAVE_SOCKETPAIR 1
 
 /* Define to 1 if you have the <socket.h> header file. */
 /* #undef HAVE_SOCKET_H */
